@@ -8,10 +8,14 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link id="theme" rel="stylesheet" type="text/css" href="css/alfatec.css">
 
-		<!-- JQuery y JQuery UI-->
+		<!-- JQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-		<!-- Moment js -->
+		<!-- Slider -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  		<!-- Moment js -->
   		<script type="text/javascript" src="js/moment.min.js"></script>
   		<script type="text/javascript" src="js/moment-es.js"></script>
 
@@ -62,14 +66,15 @@
 
 			<!-- Contenido -->
 			<section id="content">
-				<p>Aquí va un ejemplo de mashup</p>
 
-				<button>Abrir Mashup</button>
+				<p>También se puede embeber un objeto con ciertas selecciones por defecto (que podrían ser variables en función de la fecha actual, por ejemplo). El siguiente ejemplo es el mismo gráfico que el anterior pero con una selección en el año: </p>
 
-				<iframe src="https://qs.alfatecsistemas.es/form/extensions/testJaime/testJaime.html" style="width:100%; height:600px;overflow:auto; border: none; margin-top: 20px; margin-bottom: 20px"></iframe>
+				<iframe src="https://qs.alfatecsistemas.es/form/single/?appid=4c1d47f4-f460-435e-9864-12250d87838e&obj=d1a53348-aa56-49af-9703-b7b5277fae40&opt=ctxmenu,currsel&select=$::A%C3%B1o,2017" style="width:100%; height:600px;overflow:auto; border: none; margin-top: 20px; margin-bottom: 20px"></iframe>
+				<p class="pieImagen">Evolutivo del EBITDA por meses extraído de una APP Económico-Financiera de demostración desarrollada por Alfatec</p>
+				<div class="clearfix"></div>
 
+				<p>Pero, <span class="warning">¡OJO!</span> las selecciones funcionan como en Qlik Sense: afectan a todos los objetos <b>de la misma APP</b>. Por eso, si ahora se revisita la <a href="index.html">página inicial</a> el gráfico tendrá el año seleccionado también.</p>
 				
-
 				<div class="clearfix"></div>
 			</section>
 		</section>
