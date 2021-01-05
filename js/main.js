@@ -107,16 +107,8 @@ $(document).ready(function(){
   	}
 
   	// Acordeon
-  	if(window.location.href.indexOf('about') > -1){
+  	if(window.location.href.indexOf('hojas') > -1){
   		$('#acordeon').accordion()
-  	}
-
-  	// reloj
-  	if(window.location.href.indexOf('reloj') > -1){
-  		setInterval(function(){
-  			var reloj = moment().format('h:mm:ss')
-  			$('#reloj').html(reloj)
-  		},1000)
   	}
 
   	//Validacion Contacto y calendario

@@ -1,0 +1,17 @@
+body {
+	/*background: url('../img/rojo.jpg');*/
+	background-color: #999999;
+	background-attachment: fixed; /*para que al hacer scroll la imagen se quede fija*/
+}
+
+#logo {
+	background: #A30000;
+}
+
+#menu ul li:hover {
+	background: #A30000
+}
+
+.button-more {
+	background: #A30000;
+}
