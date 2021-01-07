@@ -113,3 +113,34 @@ footer {
 	float: right;
 	margin-bottom: 10px;
 }
+
+p {
+	text-align: justify;
+}
+
+
+
+
+
+.button {
+  color: white;
+  font-style: bold;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 3em;
+  padding: 0 1em;
+  background: #333333;
+  border-radius: 0.125em;
+  background-clip: padding-box;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+
+.button--lighten {
+	box-shadow: 0 1px 1px #33333D;
+	background-image: linear-gradient(to bottom, #464653, #333333);	
+}
